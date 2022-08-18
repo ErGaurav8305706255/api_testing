@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:api_testing/Models/post_model.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -72,13 +71,10 @@ class _ApiScreenState extends State<ApiScreen> {
                                     fontWeight: FontWeight.bold
                                   )),
                                   Text(postlist[index].body.toString())
-
-
                                 ],
                               ),
                             ),
                           );
-
                         });
                   }
                 }),
